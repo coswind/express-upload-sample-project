@@ -20,7 +20,7 @@ gulp.task 'jade', ->
         }
         .pipe(gulp.dest 'static')
 
-gulp.task 'watch', ['dev'], ->
+gulp.task 'watch', ['jade', 'dev'], ->
     server = livereload()
     gulp.watch 'layout/**', ['jade']
     gulp.watch('static/**').on 'change', (file) ->
