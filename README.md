@@ -10,4 +10,4 @@ npm install
 gulp watch
 ```
 
-then open this ![demo]http://localhost:3000/index.html
+then open this [demo](http://localhost:3000/index.html)
