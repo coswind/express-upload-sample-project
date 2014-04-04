@@ -1,0 +1,32 @@
+{
+  "name": "express-upload-sample-project",
+  "version": "0.1.0",
+  "description": "express upload sample project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coswind/express-upload-sample-project.git"
+  },
+  "keywords": [
+    "express",
+    "upload"
+  ],
+  "author": "coswind <xy2491259@gmail.com> (https://github.com/coswind)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/coswind/express-upload-sample-project/issues"
+  },
+  "homepage": "https://github.com/coswind/express-upload-sample-project",
+  "dependencies": {
+    "express": "~3.5.1",
+    "node-dev": "~2.1.6",
+    "gulp": "~3.6.0",
+    "gulp-nodemon": "~1.0.2",
+    "coffee-script": "~1.7.1",
+    "gulp-livereload": "~1.2.0",
+    "gulp-jade": "~0.4.2"
+  }
+}
